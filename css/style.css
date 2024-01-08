@@ -21,7 +21,7 @@ section {
 /* banner section style */
 
 .banner {
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-size: 100%;
     background-repeat: no-repeat;
     width: 1320px;
@@ -230,6 +230,67 @@ section {
 
 /* Discount style here */
 
+#discount h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+    font-family: Inter;
+    text-align: center;
+}
+
+#discount h1 {
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 16px 0 28px 0;
+}
+
+#discount span {
+    color: #F00;
+}
+
+#discount p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Inter;
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+/* heard img part */
+
+.discount-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1320px;
+    height: 662px;
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.discount-img-1 img {
+    width: 100%;
+}
+
+.discount-img-2 {
+    background-image: url(../resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 429px;
+    height: 433px;
+    position: relative;
+    bottom: 115px;
+}
+
+.discount-img-2 img {
+    position: relative;
+    right: 35%;
+    top: 15%;
+}
 
 /* Gifts style here */
 
@@ -359,6 +420,8 @@ footer {
     display: flex;
     justify-content: center;
     padding: 48px 0px;
+    border-top: .1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer-row-2 img {
