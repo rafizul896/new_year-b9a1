@@ -313,6 +313,7 @@ section {
     font-weight: 400;
     color: rgba(7, 2, 17, 0.60);
     line-height: 30px;
+    font-family: Inter;
 }
 
 .gift-img {
@@ -323,7 +324,7 @@ section {
 }
 
 .gift-img img {
-    width: 32%;
+    width: 31.8%;
 }
 
 /* Subscribe style */
@@ -334,7 +335,6 @@ section {
 }
 
 #subscribe img {
-    /* padding: 80px 585px 40px 585px; */
     padding: 13% 45% 6.5% 45%;
 }
 
@@ -387,6 +387,7 @@ section {
 footer {
     background: #070211;
     padding: 120px 0;
+    margin-top: 120px;
 }
 
 .footer-row-1 {
@@ -459,3 +460,5 @@ footer {
 .footer-row-3 a:hover {
     color: #F00;
 }
+
+/* Footer is done */
