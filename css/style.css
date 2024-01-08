@@ -21,7 +21,7 @@ section {
 /* banner section style */
 
 .banner {
-    background-image: url('../resources/Banner\ Image.png');
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-size: 100%;
     background-repeat: no-repeat;
     width: 1320px;
@@ -29,7 +29,7 @@ section {
     margin-top: 50px;
 }
 
-.banner-title {
+.banner h3 {
     font-size: 32px;
     font-weight: 400;
     color: #ffffff;
@@ -37,7 +37,7 @@ section {
     padding: 177px 530px 0 530px;
 }
 
-.banner-description {
+.banner h1 {
     font-size: 72px;
     font-weight: 900;
     color: #ffffff;
@@ -81,11 +81,16 @@ section {
 /* Welcome style start */
 
 #welcome {
-    background-image: url('../resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
-    background-size: 100%;
     width: 1320px;
     height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-year-img {
+    padding-right: 138px;
 }
 
 .welcome-title {
@@ -94,7 +99,7 @@ section {
     color: #ffffff;
     line-height: 88px;
     letter-spacing: 7px;
-    padding: 126px 500px 24px 126px;
+    padding: 126px 126px 0 126px;
 }
 
 .welcome-description {
@@ -103,7 +108,7 @@ section {
     font-weight: 400;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.88);
-    padding: 0 497px 48px 126px;
+    padding: 0 0 48px 126px;
 }
 
 #welcome a {
@@ -113,7 +118,13 @@ section {
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 48px 0 142px 126px;
+    margin: 48px 0 142px 126px;
+    transition: 0.3s linear;
+
+}
+
+#welcome a:hover {
+    color: #F00;
 }
 
 /* Join style here */
@@ -148,6 +159,11 @@ section {
     border-radius: 8px;
     margin: 48px 0 110px 44%;
     cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.btn:hover {
+    color: #070211;
 }
 
 /* Offer style here */
@@ -307,4 +323,76 @@ section {
 
 /* Footer style here */
 
+footer {
+    background: #070211;
+    padding: 120px 0;
+}
 
+.footer-row-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.footer-row-1 h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: Inter;
+    color: #FFF;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact img {
+    width: 24px;
+    height: 24px;
+}
+
+/* footer row-2 */
+
+.footer-row-2 {
+    display: flex;
+    justify-content: center;
+    padding: 48px 0px;
+}
+
+.footer-row-2 img {
+    padding: 0 12px;
+}
+
+.footer-row-2 img:hover {
+    cursor: pointer;
+}
+
+/* footer row-3 */
+
+.footer-row-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-row-3 p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #FFF;
+}
+
+.footer-row-3 a {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.footer-row-3 a:hover {
+    color: #F00;
+}
