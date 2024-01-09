@@ -9,6 +9,10 @@
     font-family: 'Merriweather', serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 86%;
     margin: 0 auto;
