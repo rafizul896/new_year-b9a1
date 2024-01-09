@@ -209,10 +209,21 @@ section {
     color: rgba(7, 2, 17, 0.60);
 }
 
+
 .red-circle {
     border: 15px solid #F00;
     padding: 40px;
     border-radius: 50%;
+}
+
+.red-circle img {
+    transition: 0.3s;
+
+}
+
+.red-circle img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 .offer-box3 {
@@ -224,6 +235,7 @@ section {
     font-weight: 700;
     color: #F00;
     font-family: Inter;
+    margin-top: 30px;
 }
 
 .offer-box3 p {
@@ -232,7 +244,7 @@ section {
     line-height: 28px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    margin: 15px 0 43px 0;
+    margin: 20px 0 40px 0;
 }
 
 /* Discount style here */
