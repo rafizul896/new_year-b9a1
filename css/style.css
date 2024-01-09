@@ -425,6 +425,7 @@ footer {
 .contact img {
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
 /* footer row-2 */
